@@ -44,7 +44,7 @@ export default function SearchPage() {
 
   const [adults, setAdults] = useState(1);
 
-  const [rooms, setRooms] = useState(10);
+  const [rooms, setRooms] = useState(1);
 
   const [loading, setLoading] = useState(false);
 
