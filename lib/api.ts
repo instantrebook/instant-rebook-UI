@@ -7,8 +7,8 @@ import {
   SearchApiResponse,
 } from '@/types/hotel';
 
-const API_URL = "http://localhost:8000/api/v2/hotel"
-// const API_URL = "https://instant-rebook.vercel.app/api/v2/hotel"
+// const API_URL = "http://localhost:8000/api/v2/hotel"
+const API_URL = "https://instant-rebook-server.onrender.com/api/v2/hotel"
 
 if (!API_URL) {
   throw new Error(
