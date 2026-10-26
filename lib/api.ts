@@ -9,7 +9,7 @@ import {
 
 // const API_URL = "http://localhost:8000/api/v2/hotel"
 // const API_URL = "https://instant-rebook-server.onrender.com/api/v2/hotel"
-const API_URL = "https://instant-rebook-server-xpma.onrender.com/api/v2/hotel"
+const API_URL = "https://instant-rebook-server-production-77ec.up.railway.app/api/v2/hotel"
 
 if (!API_URL) {
   throw new Error(
